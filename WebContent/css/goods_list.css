@@ -1,0 +1,45 @@
+#hot_goods{
+    width: 1200px;
+    margin: 10px auto;
+}
+
+#hot_goods h3{
+    background: white;
+    color: #ff242d;
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;/*清楚浮动,浮动元素需要清楚父元素浮动才可以撑开父元素*/
+}
+
+#hot_goods .hot_goods_body ul li{
+    width: 236px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+    margin-right: 0;
+}
+
+#hot_goods .hot_goods_body img{
+    width: 220px;
+    height: 218px;
+    display: block;
+    margin: 0 auto;
+}
+
+#hot_goods .hot_goods_body p{
+    font-size: 13px;
+    padding: 10px 3px;
+}

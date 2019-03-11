@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*设置头部样式*/
+#header{
+    height:88px;
+}
+
+/*设置头部居中部分的样式*/
+#header .h_center{
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;/*居中*/
+}
+
+#header .h_center img{
+    float:left;/*设置左浮动，可使元素居于同一行*/
+    margin-top: 5px;
+}
+
+#header .h_center p{
+    float: left;/*设置左浮动，可使元素居于同一行*/
+    text-align: center;
+    width: 880px;
+    font-size: 10px;
+    border: 1px solid #ffb4a8;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+}
+
+/*设置中部样式*/
+#login_body{
+    height: 600px;
+    background-image: url("../images/login_bg.png");
+    background-position: center center;/*设置背景图片居中*/
+}
+
+#login_body .login_b_center{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;/*设置父元素为相对定位*/
+}
+
+#login_body .login_b_center .login_bg{
+    width: 350px;
+    height: 351px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;/*设置子元素为绝对定位，子元素会相对于父元素进行绝对定位*/
+    top: 80px;
+    right: 10px;
+    padding: 30px;/*直接加padding  div会变大*/
+    box-sizing: border-box;/*加padding  div保持原来大小*/
+}
+
+#login div{
+    height: 40px;
+    margin-top: 20px;
+}
+
+#login span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: red;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#login .username span{
+    background-image: url("../images/userName_Icon.png");
+}
+#login .password span{
+    background-image: url("../images/password_Icon.png");
+}
+
+#login input{
+    width: 240px;
+    height: 40px;
+    float: left;
+}
+
+#login .login_btn input{
+    background: #f40;
+    border: none;
+    width: 290px;
+    color: white;
+    font-size: 20px;
+}
+
+#login .forgot_pwd{
+    text-align: right;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
